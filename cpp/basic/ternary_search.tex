@@ -1,0 +1,47 @@
+如何取 mid1 和 mid2？有以下两种基本方法。
+
+(1) 三等分： mid1 和 mid2 为 $[l, r]$ 的三等分点，区间每次可以缩小 1 / 3。
+
+(2) 近似三等分：计算 $[l, r]$ 的中间点 mid = $(l + r) / 2$，然后让 mid1 和 mid2 非常接近 mid，如 mid1 = mid - eps, mid2 = mid + eps。区间每次可以缩小接近一半。
+
+近似三等分比三等分要稍微快一点。不过，在有些情况下 eps 过小可能导致 mid1 和 mid2 算出的结果相等，从而判断错方向。
+\\
+
+三等分：
+\begin{lstlisting}
+while (r - l > eps) {
+	double k = (r - l) / 3;
+	double mid1 = l + k, mid2 = r - k;
+	if (/*...*/) {
+		r = mid2;
+	} else {
+		l = mid1;
+	}
+}
+\end{lstlisting}
+
+近似三等分：
+\begin{lstlisting}
+while (r - l > eps) {
+	double mid1 = (l + r) / 2;
+	double mid2 = mid1 + eps;
+	if (/*...*/) {
+		r = mid2;
+	} else {
+		l = mid1;
+	}
+}
+\end{lstlisting}
+
+整数三分：
+\begin{lstlisting}
+while (r - l > 2) {
+	int mid1 = l + (r - l) / 3;
+	int mid2 = r - (r - l) / 3;
+	if (/*...*/) {
+		r = mid2;
+	} else {
+		l = mid1;
+	}
+}
+\end{lstlisting}
