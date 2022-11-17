@@ -7,28 +7,23 @@ int N, M;
 std::cin >> N >> M;
 
 std::vector<int> a(N);
-for (int &i : a) {
-	std::cin >> i;
-}
+for (int &i : a) std::cin >> i;
 
 std::vector<int> LOG2(N + 1);
 LOG2[0] = -1;
-for (int i = 1; i <= N; ++i) {
+for (int i = 1; i <= N; ++i) 
 	LOG2[i] = LOG2[i / 2] + 1;
-}
 
 int dp[N][21];
-for (int i = 0; i < N; ++i) {
+for (int i = 0; i < N; ++i) 
 	dp[i][0] = a[i];
-}
 
-int p = LOG2[N];  
+int p = LOG2[N];
 // 可倍增区间的最大次方：2^p <= N
-for (int k = 1; k <= p; ++k) {
-	for (int i = 0; i + (1 << k) - 1 < N; ++i) {
+
+for (int k = 1; k <= p; ++k)
+	for (int i = 0; i + (1 << k) - 1 < N; ++i)
 		dp[i][k] = std::max(dp[i][k - 1], dp[i + (1 << (k - 1))][k - 1]);
-	}
-}
 
 while (M--) {
 	int l, r;
@@ -43,7 +38,7 @@ while (M--) {
 }
 \end{lstlisting}
 
-封装好的ST：
+ST类：
 \begin{lstlisting}
 struct ST {
 	size_t n;

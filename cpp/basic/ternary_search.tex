@@ -12,11 +12,10 @@
 while (r - l > eps) {
 	double k = (r - l) / 3;
 	double mid1 = l + k, mid2 = r - k;
-	if (/*...*/) {
+	if (/*...*/)
 		r = mid2;
-	} else {
+	else
 		l = mid1;
-	}
 }
 \end{lstlisting}
 
@@ -25,11 +24,10 @@ while (r - l > eps) {
 while (r - l > eps) {
 	double mid1 = (l + r) / 2;
 	double mid2 = mid1 + eps;
-	if (/*...*/) {
+	if (/*...*/)
 		r = mid2;
-	} else {
+	else
 		l = mid1;
-	}
 }
 \end{lstlisting}
 
@@ -38,10 +36,9 @@ while (r - l > eps) {
 while (r - l > 2) {
 	int mid1 = l + (r - l) / 3;
 	int mid2 = r - (r - l) / 3;
-	if (/*...*/) {
+	if (/*...*/)
 		r = mid2;
-	} else {
+	else
 		l = mid1;
-	}
 }
 \end{lstlisting}

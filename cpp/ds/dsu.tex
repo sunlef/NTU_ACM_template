@@ -1,0 +1,26 @@
+\begin{lstlisting}
+struct dsu {
+	// 元素范围 [0, n)
+	int n;
+	std::vector<int> f, sz;
+	
+	dsu(int n) : n(n), f(n), sz(n, 1) { std::iota(f.begin(), f.end(), 0); }
+	int father(int u) {
+		if (u >= n) return -1;
+		while (u != f[u]) u = f[u] = f[f[u]];
+		return u;
+	}
+	bool same(int u, int v) {
+		int a = father(u), b = father(v);
+		return a == b && a != -1;
+	}
+	void merge(int u, int v) {
+		int a = father(u), b = father(v);
+		if (sz[a] > sz[b])
+			f[b] = a, sz[a] += sz[b];
+		else
+			f[a] = b, sz[b] += sz[a];
+	}
+	int size(int u) { return sz[father(u)]; }
+};
+\end{lstlisting}

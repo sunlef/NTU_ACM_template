@@ -1,0 +1,28 @@
+\begin{lstlisting}
+int n;
+std::cin >> n;
+
+std::vector<int> a(n), b(n);
+for (int &i : a) std::cin >> i;
+
+int64_t ans = 0;
+std::function<void(int, int)> merge_sort = [&](int l, int r) {
+	//排序区间 [l, r)
+	if (r - l <= 1) return;
+	int mid = (l + r) / 2;
+	merge_sort(l, mid);
+	merge_sort(mid, r);
+	for (int i = l, j = mid, k = l; k < r; ++k) {
+		if (j == r || (i < mid && a[i] <= a[j]))
+			b[k] = a[i++];
+		else {
+			ans += mid - i;
+			b[k] = a[j++];
+		}
+	}
+	for (int i = l; i < r; ++i) a[i] = b[i];
+};
+
+merge_sort(0, n);
+std::cout << ans << '\n';
+\end{lstlisting}
