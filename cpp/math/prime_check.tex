@@ -1,0 +1,50 @@
+\begin{lstlisting}
+bool is_prime(int32_t n) {
+	if (n <= 1) {
+		return false;
+	}
+	if (n == 2 || n == 7 || n == 61) {
+		return true;
+	}
+	if (n % 2 == 0) {
+		return false;
+	}
+	int64_t d = n - 1;
+	while (d % 2 == 0) {
+		d /= 2;
+	}
+	constexpr int64_t bases[3] = {2, 7, 61};
+	for (int64_t a : bases) {
+		int64_t t = d;
+		int64_t y = pow_mod(a, t, n);
+		while (t != n - 1 && y != 1 && y != n - 1) {
+			y = y * y % n;
+			t <<= 1;
+		}
+		if (y != n - 1 && t % 2 == 0) {
+			return false;
+		}
+	}
+	return true;
+}
+\end{lstlisting}
+Rabin-Miller:
+\begin{lstlisting}
+bool millerRabin(int n) {
+	if (n < 3 || n % 2 == 0) return n == 2;
+	int a = n - 1, b = 0;
+	while (a % 2 == 0) a /= 2, ++b;
+	// test_time 为测试次数,建议设为不小于 8
+	// 的整数以保证正确率,但也不宜过大,否则会影响效率
+	for (int i = 1, j; i <= test_time; ++i) {
+		int x = rand() % (n - 2) + 2, v = quickPow(x, a, n);
+		if (v == 1) continue;
+		for (j = 0; j < b; ++j) {
+			if (v == n - 1) break;
+			v = (long long)v * v % n;
+		}
+		if (j >= b) return 0;
+	}
+	return 1;
+}
+\end{lstlisting}

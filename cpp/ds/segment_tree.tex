@@ -1,0 +1,180 @@
+普通线段数。单调修改、查询区间和：
+\begin{lstlisting}
+template <class Info, class Merge = std::plus<Info>> 
+struct SegmentTree {
+	const int n;
+	const Merge merge;
+	std::vector<Info> info;
+	
+	SegmentTree(int n) : 
+	n(n), merge(Merge()), info(4 << (31 - __builtin_clz(n))) {}
+	SegmentTree(std::vector<Info> init) : 
+	SegmentTree(init.size()) {
+		std::function<void(int, int, int)> build = [&](int p, int l, int r) {
+			if (r - l == 1) {
+				info[p] = init[l];
+				return;
+			}
+			int m = (l + r) / 2;
+			build(2 * p, l, m);
+			build(2 * p + 1, m, r);
+			pull(p);
+		};
+		build(1, 0, n);
+	}
+	void pull(int p) { info[p] = merge(info[2 * p], info[2 * p + 1]); }
+	void modify(int p, int l, int r, int x, const Info &v) {
+		if (r - l == 1) {
+			info[p] = info[p] + v;
+			return;
+		}
+		int m = (l + r) / 2;
+		if (x < m)
+			modify(2 * p, l, m, x, v);
+		else
+			modify(2 * p + 1, m, r, x, v);
+		pull(p);
+	}
+	void modify(int p, const Info &v) { modify(1, 0, n, p, v); }
+	Info rangeQuery(int p, int l, int r, int x, int y) {
+		if (l >= y || r <= x) 
+			return Info();
+		if (l >= x && r <= y) 
+			return info[p];
+		int m = (l + r) / 2;
+		return 
+			merge(rangeQuery(2 * p, l, m, x, y), rangeQuery(2 * p + 1, m, r, x, y));
+	}
+	Info rangeQuery(int l, int r) { 
+		return rangeQuery(1, 0, n, l, r); 
+	}
+};
+
+struct Info {
+	int64_t x;
+	Info(int x = 0) : x(x){};
+};
+
+Info operator+(const Info &lhs, const Info &rhs) { 
+	return lhs.x + rhs.x;
+}
+\end{lstlisting}
+懒标记。区间修改和查询：
+\begin{lstlisting}
+#include <bits/stdc++.h>
+
+struct Info {
+	int64_t x;
+	Info(int64_t x = 0) : x(x) {}
+};
+
+Info operator+(const Info &lhs, const Info &rhs) { return Info(lhs.x + rhs.x); }
+
+void apply(Info &a, int64_t b) { a.x += b; }
+void apply(int64_t &a, int64_t b) { a += b; }
+
+template <class Info, class Tag, class Merge = std::plus<Info>> struct LazySegmentTree {
+	const int n;
+	const Merge merge;
+	std::vector<Info> info;
+	std::vector<Tag> tag;
+	
+	LazySegmentTree(int n) : n(n), merge(Merge()), info(4 << (31 - __builtin_clz(n))), tag(4 << (31 - __builtin_clz(n))) {}
+	LazySegmentTree(std::vector<Info> init) : LazySegmentTree(init.size()) {
+		std::function<void(int, int, int)> build = [&](int p, int l, int r) {
+			if (r - l == 1) {
+				info[p] = init[l];
+				return;
+			}
+			int m = (l + r) / 2;
+			build(2 * p, l, m);
+			build(2 * p + 1, m, r);
+			pull(p);
+		};
+		build(1, 0, n);
+	}
+	void pull(int p) { info[p] = merge(info[2 * p], info[2 * p + 1]); }
+	void apply(int p, int l, int r, const Tag &v) {
+		::apply(info[p], (r - l) * v);
+		::apply(tag[p], v);
+	}
+	void push(int p, int l, int r) {
+		int mid = (l + r) / 2;
+		apply(2 * p, l, mid, tag[p]);
+		apply(2 * p + 1, mid, r, tag[p]);
+		tag[p] = Tag();
+	}
+	void modify(int p, int l, int r, int x, const Info &v) {
+		if (r - l == 1) {
+			info[p] = info[p] + v;
+			return;
+		}
+		int m = (l + r) / 2;
+		push(p, l, r);
+		if (x < m)
+		modify(2 * p, l, m, x, v);
+		else
+		modify(2 * p + 1, m, r, x, v);
+		pull(p);
+	}
+	void modify(int p, const Info &v) { modify(1, 0, n, p, v); }
+	Info rangeQuery(int p, int l, int r, int x, int y) {
+		if (l >= y || r <= x) {
+			return Info();
+		}
+		if (l >= x && r <= y) {
+			return info[p];
+		}
+		int m = (l + r) / 2;
+		push(p, l, r);
+		return merge(rangeQuery(2 * p, l, m, x, y), rangeQuery(2 * p + 1, m, r, x, y));
+	}
+	Info rangeQuery(int l, int r) { return rangeQuery(1, 0, n, l, r); }
+	void rangeApply(int p, int l, int r, int x, int y, const Tag &v) {
+		if (l >= y || r <= x) return;
+		if (l >= x && r <= y) {
+			apply(p, l, r, v);
+			return;
+		}
+		int m = (l + r) / 2;
+		push(p, l, r);
+		rangeApply(2 * p, l, m, x, y, v);
+		rangeApply(2 * p + 1, m, r, x, y, v);
+		pull(p);
+	}
+	void rangeApply(int l, int r, const Tag &v) { return rangeApply(1, 0, n, l, r, v); }
+};
+
+int main() {
+	std::ios::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	
+	int n, m;
+	std::cin >> n >> m;
+	
+	std::vector<Info> a(n);
+	for (Info &i : a) {
+		std::cin >> i.x;
+	}
+	
+	LazySegmentTree<Info, int64_t> seg(a);
+	
+	while (m--) {
+		int op;
+		std::cin >> op;
+		
+		if (op == 1) {
+			int x, y, k;
+			std::cin >> x >> y >> k;
+			--x;
+			seg.rangeApply(x, y, k);
+		} else {
+			int x, y;
+			std::cin >> x >> y;
+			--x;
+			
+			std::cout << seg.rangeQuery(x, y).x << '\n';
+		}
+	}
+}
+\end{lstlisting}

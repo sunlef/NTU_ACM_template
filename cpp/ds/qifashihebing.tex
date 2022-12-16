@@ -1,0 +1,129 @@
+一天，小徐的好友邀请他去吃布丁，于是小徐高高兴兴的来到好友家。
+
+哇，这么多五彩缤纷的布丁！
+
+好友说：“在我们开吃前先玩会儿游戏吧。”
+
+于是他将布丁摆成一行，接着说：“我可以把某种颜色的布丁全部变成另一种颜色，我还会在某些时刻问你当前一共有多少段颜色。例如：颜色分别为 1,2,2,1 的四个布丁一共有 3 段颜色。”
+
+输入格式
+第一行包含整数 n 和 m，分别表示布丁的个数和好友的操作次数。
+
+第二行包含 n 个空格隔开的整数 A1,A2,…,An，其中 Ai 表示第 i 个布丁的颜色。
+
+从第三行起的 m 行，依次描述 m 个操作。
+
+对每个操作，若第一个数是 1，则表示好友要改变颜色，这时后跟两个整数 x 和 y（可能相等），表示执行该操作后所有颜色为 x 的布丁被变成颜色 y。
+
+若第一个数是 2，则表示好友要询问目前有多少段颜色，这时应该输出一个整数回答。
+
+输出格式
+对于每个询问，在一行中输出一个整数作为回答。
+
+数据范围
+0<n,m<100001,
+0<Ai,x,y<106
+
+\begin{lstlisting}
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define int long long
+
+const int N = 1e5 + 10;
+
+int n, m;
+int rt, idx;
+
+struct type {
+	int s[2], v, p;
+	int sz, flag;
+	int& l = s[0], & r = s[1];
+	void init(int vv, int pp) {
+		v = vv, p = pp;
+		sz = 1;
+	}
+}tree[N];
+
+void pushup(int x) {
+	tree[x].sz = tree[tree[x].l].sz + tree[tree[x].r].sz + 1;
+}
+
+void pushdown(int x) {
+	if (tree[x].flag) {
+		swap(tree[x].l, tree[x].r);
+		tree[tree[x].l].flag ^= 1;
+		tree[tree[x].r].flag ^= 1;
+		tree[x].flag = 0;
+	}
+}
+
+void rotate(int x) {
+	int y = tree[x].p, z = tree[y].p, k = tree[y].r == x;
+	int& b = tree[x].s[k ^ 1];
+	tree[b].p = y; tree[y].p = x; tree[x].p = z;
+	tree[y].s[k] = b;
+	b = y;
+	tree[z].s[tree[z].r == y] = x;
+	pushup(y); pushup(x);
+}
+
+void splay(int x, int k) {
+	while (tree[x].p != k) {
+		int y = tree[x].p, z = tree[y].p;
+		if (z != k) {
+			if ((tree[y].r == x) ^ tree[z].r == y) rotate(x);
+			else rotate(y);
+		}
+		rotate(x);
+	}
+	if (!k) rt = x;
+}
+
+void insert(int v) {
+	int x = rt, p = 0;
+	while (x) p = x, x = tree[x].s[v > tree[x].v];
+	x = ++idx;
+	if (p) tree[p].s[v > tree[p].v] = x;
+	tree[x].init(v, p);
+	splay(x, 0);
+}
+
+int getp(int k) {
+	int x = rt;
+	while (1) {
+		pushdown(x);
+		int sz = tree[tree[x].l].sz;
+		if (sz >= k) x = tree[x].l;
+		else if (sz + 1 == k) return x;
+		else k -= sz + 1, x = tree[x].r;
+	}
+}
+
+void print(int x) {
+	pushdown(x);
+	if (tree[x].l) print(tree[x].l);
+	if (tree[x].v >= 1 && tree[x].v <= n) cout << tree[x].v << " ";
+	if (tree[x].r) print(tree[x].r);
+} 
+
+void oper() {
+	cin >> n >> m;
+	for (int i = 0; i <= n + 1; i++) insert(i);
+	for (int i = 1; i <= m; i++) {
+		int l, r; cin >> l >> r;
+		l = getp(l), r = getp(r + 2);
+		splay(l, 0), splay(r, l);
+		tree[tree[r].l].flag ^= 1;
+	}
+	print(rt);
+}
+
+signed main() {
+	ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+	int t = 1; //cin >> t;
+	while (t--) oper();
+	return 0;
+}
+\end{lstlisting}

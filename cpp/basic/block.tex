@@ -1,0 +1,14 @@
+\begin{lstlisting}
+int block = std::sqrt(n);  //块的大小：每块有block个元素
+int t = n / block;         //块的数量：共分为t块
+if (n % block != 0) t += 1;
+
+for (int i = 1; i <= t; ++i) {
+	st[i] = (i - 1) * block + 1;
+	ed[i] = i * block;
+}
+ed[t] = n;
+
+for (int i = 1; i <= n; ++i) 
+	pos[i] = (i - 1) / block + 1;  // 每个元素所在块的编号
+\end{lstlisting}

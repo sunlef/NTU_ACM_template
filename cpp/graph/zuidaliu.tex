@@ -1,0 +1,158 @@
+给定一个包含 n 个点 m 条边的有向图，并给定每条边的容量，边的容量非负。
+
+图中可能存在重边和自环。求从点 S 到点 T 的最大流。
+
+输入格式
+第一行包含四个整数 n,m,S,T。
+
+接下来 m 行，每行三个整数 u,v,c，表示从点 u 到点 v 存在一条有向边，容量为 c。
+
+点的编号从 1 到 n。
+
+输出格式
+输出点 S 到点 T 的最大流。
+
+如果从点 S 无法到达点 T 则输出 0。
+\begin{lstlisting}
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define int long long
+#define endl '\n'
+
+const int N = 1e4 + 10, M = 2e5 + 10, inf = 0x3f3f3f3f;
+
+int n, m, st, ed;
+int h[N], e[M], w[M], ne[M], idx;
+int d[N], cu[N];
+
+void add(int a, int b, int c) {
+	e[idx] = b, w[idx] = c, ne[idx] = h[a], h[a] = idx++;
+	e[idx] = a, w[idx] = 0, ne[idx] = h[b], h[b] = idx++;
+}
+
+bool bfs() {
+	memset(d, -1, sizeof d); d[st] = 0;
+	queue<int> q; q.push(st);
+	cu[st] = h[st];
+	while (q.size()) {
+		int ver = q.front(); q.pop();
+		for (int i = h[ver]; ~i; i = ne[i]) {
+			int to = e[i];
+			if (d[to] == -1 && w[i]) {
+				d[to] = d[ver] + 1;
+				cu[to] = h[to];
+				if (to == ed) return 1;
+				q.push(to);
+			}
+		}
+	}
+	return 0;
+}
+
+int Find(int pre, int limit) {
+	if (pre == ed) return limit;
+	int flow = 0;
+	for (int i = cu[pre]; ~i && flow < limit; i = ne[i]) {
+		cu[pre] = i;
+		int to = e[i];
+		if (d[to] == d[pre] + 1 && w[i]) {
+			int tmp = Find(to, min(w[i], limit - flow));
+			if (!tmp) d[to] = -1;
+			w[i] -= tmp, w[i ^ 1] += tmp, flow += tmp;
+		}
+	}
+	return flow;
+}
+
+int dinic() {
+	int maxf = 0, flow;
+	while (bfs()) while (flow = Find(st, inf)) maxf += flow;
+	return maxf;
+}
+
+void oper() {
+	cin >> n >> m >> st >> ed;
+	memset(h, -1, sizeof h); idx = 0;
+	for (int i = 1; i <= m; i++) {
+		int a, b, c; cin >> a >> b >> c;
+		add(a, b, c);
+	}
+	cout << dinic() << endl;
+}
+
+signed main() {
+	ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+	int t = 1; //cin >> t;
+	while (t--) oper();
+	return 0;
+}
+\end{lstlisting}
+
+\begin{lstlisting}
+/*
+* Author: Simon,Ttmq36
+* 复杂度: O(V^2·E)
+*/
+namespace Dinic{
+	struct node{
+		int v,w,next;
+		node(){}
+		node(int v,int w,int next):v(v),w(w),next(next){}
+	}g[maxn<<1];
+	int head[maxn],cur[maxn],cnt=0;
+	int dep[maxn];
+	void init(){
+		memset(head,-1,sizeof(head));cnt=0;
+	}
+	void addedge(int u,int v,int w){
+		g[cnt]=node(v,w,head[u]);
+		head[u]=cnt++;
+		g[cnt]=node(u,0,head[v]);
+		head[v]=cnt++;
+	}
+	bool bfs(int s,int t){
+		memset(dep,0,sizeof(dep));
+		queue<int>q;q.push(s);
+		dep[s]=1; cur[s]=head[s];
+		while(!q.empty()){
+			int u=q.front();q.pop();
+			for(int i=head[u];~i;i=g[i].next){
+				int &v=g[i].v,&w=g[i].w;
+				if(!dep[v]&&w>0){
+					dep[v] = dep[u] + 1;
+					cur[v] = head[v];
+					q.push(v);
+				}
+			}
+		}
+		if(!dep[t]) return 0;
+		return 1;
+	}
+	int dfs(int s,int t,int f){
+		if(s==t) return f;
+		int flow=0,u=s;
+		for(int &i=cur[u];~i;i=g[i].next){
+			int &v=g[i].v,&w=g[i].w;
+			if(dep[u]+1==dep[v]&&w>0){
+				int d=dfs(v,t,min(f,w));
+				if(d>0){
+					flow+=d; f-=d;
+					g[i].w-=d,g[i^1].w+=d;
+					if(f<=0) break;
+				}
+			}
+		}
+		if(!flow) dep[u]=-INF;
+		return flow;
+	}
+	int maxFlow(int s,int t){
+		int ans=0;
+		while(bfs(s,t)){
+			ans+=dfs(s,t,INF);
+		}
+		return ans;
+	}
+}
+\end{lstlisting}

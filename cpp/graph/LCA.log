@@ -1,0 +1,1716 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.16)  2 DEC 2022 17:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**LCA.tex
+(./LCA.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 倍
+     增：
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 倍 ("500D) in font nullfont!
+Missing character: There is no 增 ("589E) in font nullfont!
+Missing character: There is no ： ("FF1A) in font nullfont!
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.3 #
+     include <bits/stdc++.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no b ("62) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 i
+     nt main() {
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ^^Istd::ios::sync_
+                      with_stdio(false);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 ^^I
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--8
+[]
+ []
+
+
+Overfull \hbox (98.51535pt too wide) in paragraph at lines 5--8
+[]\OML/cmm/m/it/10 ith[]tdio\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 false\OT1/cmr/m/n
+/10 ); \OML/cmm/m/it/10 std \OT1/cmr/m/n/10 ::
+ []
+
+
+Overfull \hbox (70.34073pt too wide) in paragraph at lines 5--8
+\OML/cmm/m/it/10 cin:tie\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 nullptr\OT1/cmr/m/n/1
+0 );$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ^^Ii
+        nt n, m, s;
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--12
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ^^Is
+         td::vector G(n, std::vector<int>());
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no G ("47) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ^^If
+         or (int i = 1; i < n; ++i) {
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--19
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ^^I^^IG
+            [u].emplace_back(v);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no G ("47) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 ^^I^^IG[u].emplace_
+                        back(v);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.22 ^^I}
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 ^^I
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (149.3301pt too wide) in paragraph at lines 20--23
+[]$[]\OML/cmm/m/it/10 ack\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ); 
+\OML/cmm/m/it/10 G\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ]\OML/cmm/
+m/it/10 :emplace[]ack\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 );$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ^^Is
+         td::vector fa(n, std::vector<int>(20, -1));
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no 表 ("8868) in font nullfont!
+Missing character: There is no 示 ("793A) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no 的 ("7684) in font nullfont!
+Missing character: There is no 第 ("7B2C) in font nullfont!
+Missing character: There is no 2 ("32) in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 ^^I//fa[u][i] 表示u的第2^
+                          i个父亲
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 ^^I
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 个 ("4E2A) in font cmr10!
+Missing character: There is no 父 ("7236) in font cmr10!
+Missing character: There is no 亲 ("4EB2) in font cmr10!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--27
+[]
+ []
+
+
+Overfull \hbox (25.16605pt too wide) in paragraph at lines 24--27
+[]\OML/cmm/m/it/10 std \OT1/cmr/m/n/10 ::
+ []
+
+
+Overfull \hbox (37.99306pt too wide) in paragraph at lines 24--27
+\OML/cmm/m/it/10 vector <
+ []
+
+
+Overfull \hbox (23.6141pt too wide) in paragraph at lines 24--27
+\OML/cmm/m/it/10 int >
+ []
+
+
+Overfull \hbox (40.82301pt too wide) in paragraph at lines 24--27
+\OML/cmm/m/it/10 depth\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 );$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ^^Is
+         td::function<void(int, int)>
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+! Misplaced alignment tab character &.
+l.29 ^^Idfs = [&
+                ](int u, int f) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--32
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ^^I^^If
+            or (int i = 1; (1 << i) <= depth[u]; ++i)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--35
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ^^I^^If
+            or (int v : G[u])
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no G ("47) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no ! ("21) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 36--39
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ^^Ia
+         uto lca = [&](int x, int y) {
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+! Misplaced alignment tab character &.
+l.40 ^^Iauto lca = [&
+                     ](int x, int y) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--42
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ^^I^^If
+            or (int i = 19; i >= 0; --i)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--46
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ^^I^^Ii
+            f (x == y) return x;
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ^^I^^If
+            or (int i = 19; i >= 0; --i)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 9 ("39) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ! ("21) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 49--54
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ^^I^^Ir
+            eturn fa[x][0];
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 55--57
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ^^Id
+         fs(s, s);
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 58--59
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ^^Iw
+         hile (m--) {
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no w ("77) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no - ("2D) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 60--64
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ^^I^^Is
+            td::cout << lca(x, y) + 1 << '\n';
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no l ("6C) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no ' ("27) in font nullfont!
+! Undefined control sequence.
+l.65 ^^I^^Istd::cout << lca(x, y) + 1 << '\n
+                                            ';
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ' ("27) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.68 \end{lstlisting}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--69
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 t
+      argin:
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no g ("67) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no L ("4C) in font nullfont!
+Missing character: There is no C ("43) in font nullfont!
+Missing character: There is no A ("41) in font nullfont!
+Missing character: There is no T ("54) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no j ("6A) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no 算 ("7B97) in font nullfont!
+Missing character: There is no 法 ("6CD5) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no > ("3E) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no , ("2C) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 70--76
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 i
+      nt find(int x) { return pre[x] == x ? x : pre[x] = find(pre[x]); }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ? ("3F) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no : ("3A) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--78
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 v
+      oid dfs(int u) {
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no z ("7A) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no v ("76) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 0 ("30) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no z ("7A) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ! ("21) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no d ("64) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 79--92
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 /
+      *
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no / ("2F) in font nullfont!
+Missing character: There is no * ("2A) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no o ("6F) in font nullfont!
+Missing character: There is no r ("72) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no t ("74) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no < ("3C) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no q ("71) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no + ("2B) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no c ("63) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no " ("22) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no f ("66) in font nullfont!
+Missing character: There is no ( ("28) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no y ("79) in font nullfont!
+Missing character: There is no ) ("29) in font nullfont!
+Missing character: There is no a ("61) in font nullfont!
+Missing character: There is no n ("6E) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no i ("69) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no = ("3D) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no [ ("5B) in font nullfont!
+Missing character: There is no x ("78) in font nullfont!
+Missing character: There is no ] ("5D) in font nullfont!
+Missing character: There is no . ("2E) in font nullfont!
+Missing character: There is no p ("70) in font nullfont!
+Missing character: There is no u ("75) in font nullfont!
+Missing character: There is no s ("73) in font nullfont!
+Missing character: There is no h ("68) in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.97 ^^Is[x].push_
+                  back(y);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.101 }
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 93--104
+[]
+ []
+
+
+Overfull \hbox (348.42984pt too wide) in paragraph at lines 93--104
+[]\OML/cmm/m/it/10 ack\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ); \OM
+L/cmm/m/it/10 s\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ]\OML/cmm/m/i
+t/10 :push[]ack\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ); \OML/cmm/m
+/it/10 num\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 
+:push[]ack\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ); \OML/cmm/m/it/1
+0 num\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :push
+[]ack\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ); \OML/cmm/m/it/10 dfs
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 root\OT1/cmr/m/n/10 ); \OMS/cmsy/m/n/10 ^^C\O
+ML/cmm/m/it/10 =$ 
+ []
+
+)
+Runaway argument?
+{\begin {lstlisting} 
+! File ended while scanning use of \end .
+<inserted text> 
+                \par 
+<*> LCA.tex
+           
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> LCA.tex
+           
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 476179
+ 322 string characters out of 5809543
+ 300513 words of memory out of 5000000
+ 20872 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,1n,12p,107b,62s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

@@ -1,0 +1,103 @@
+倍增：
+\begin{lstlisting}
+#include <bits/stdc++.h>
+
+int main() {
+	std::ios::sync_with_stdio(false);
+	std::cin.tie(nullptr);
+	
+	int n, m, s;
+	std::cin >> n >> m >> s;
+	--s;
+	
+	std::vector G(n, std::vector<int>());
+	
+	for (int i = 1; i < n; ++i) {
+		int u, v;
+		std::cin >> u >> v;
+		--u, --v;
+		
+		G[u].emplace_back(v);
+		G[v].emplace_back(u);
+	}
+	
+	std::vector fa(n, std::vector<int>(20, -1));
+	//fa[u][i] 表示u的第2^i个父亲
+	std::vector<int> depth(n);
+	
+	std::function<void(int, int)> 
+	dfs = [&](int u, int f) {
+		depth[u] = depth[f] + 1;
+		fa[u][0] = f;
+		
+		for (int i = 1; (1 << i) <= depth[u]; ++i) 
+		fa[u][i] = fa[fa[u][i - 1]][i - 1];
+		
+		for (int v : G[u])
+		if (v != f) dfs(v, u);
+	};
+	
+	auto lca = [&](int x, int y) {
+		if (depth[x] < depth[y]) std::swap(x, y);
+		
+		for (int i = 19; i >= 0; --i)
+		if (depth[x] - (1 << i) >= depth[y]) 
+		x = fa[x][i];
+		
+		if (x == y) return x;
+		
+		for (int i = 19; i >= 0; --i)
+		if (fa[x][i] != fa[y][i]) {
+			x = fa[x][i];
+			y = fa[y][i];
+		}
+		
+		return fa[x][0];
+	};
+	
+	dfs(s, s);
+	
+	while (m--) {
+		int x, y;
+		std::cin >> x >> y;
+		--x, --y;
+		
+		std::cout << lca(x, y) + 1 << '\n';
+	}
+}
+\end{lstlisting}
+
+targan:
+\begin{lstlisting}
+int n, root, cnt;
+int pre[maxn], ans[maxn];
+vector<int> v[maxn], s[maxn], num[maxn];
+
+int find(int x) { return pre[x] == x ? x : pre[x] = find(pre[x]); }
+
+void dfs(int u) {
+	pre[u] = u;
+	for (int i = 0; i < v[u].size(); i++) {
+		int to = v[u][i];
+		dfs(to);
+		pre[find(pre[to])] = find(pre[u]);
+	}
+	for (int i = 0; i < s[u].size(); i++) {
+		int to = s[u][i];
+		if (pre[to] != to)
+		ans[num[u][i]] = find(pre[to]);
+	}
+}
+
+/*
+for (int i = 1; i <= q; i++) {
+	scanf("%d%d", &x, &y);
+	if (x == y) ans[i] = x;
+	s[x].push_back(y);
+	s[y].push_back(x);
+	num[x].push_back(i);
+	num[y].push_back(i);
+}
+dfs(root);
+*/
+\end{lstlisting}

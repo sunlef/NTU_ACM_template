@@ -1,0 +1,39 @@
+\begin{lstlisting}
+struct fenwick {
+	int n;
+	std::vector<int> info;
+	
+	//[1, n]
+	fenwick(int n) : n(n + 1), info(n + 1) {}
+	void add(int pos, int val) {
+		for (; pos < n; pos += pos & -pos)
+		info[pos] += val;
+	}
+	int query(int pos) {
+		int res = 0;
+		for (; pos; pos -= pos & -pos)
+		res += info[pos];
+		return res;
+	}
+};
+\end{lstlisting}
+\begin{lstlisting}
+struct fenwick_2d {
+	int n, m;
+	std::vector<vector<int>> info;
+	
+	fenwick_2d(int n, int m) : n(n + 1), m(m + 1), info(n + 1, std::vector<int>(m + 1)) {}
+	void add(int x, int y, int val) {
+		for (; x < n; x += x & -x)
+		for (; y < m; y += y & -y)
+		info[x][y] += val;
+	}
+	int query(int x, int y) {
+		int res = 0;
+		for (; x; x -= x & -x)
+		for (; y; y -= y & -y)
+		res += info[x][y];
+		return res;
+	}
+};
+\end{lstlisting}
